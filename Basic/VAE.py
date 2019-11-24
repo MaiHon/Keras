@@ -115,7 +115,6 @@ class VAE(object):
     def compile(self, learning_rate, r_loss_factor):
         self.learning_rate = learning_rate
 
-        ### COMPILATION
         def vae_r_loss(y_true, y_pred):
             r_loss = K.mean(K.square(y_true - y_pred), axis = [1,2,3])
             return r_loss_factor * r_loss
