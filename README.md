@@ -1,7 +1,7 @@
 # Let's dive into Deep Learing
 ### Ref. ==> Generative Deep Learning 미술관에 GAN 딥러닝 프로젝트
 
-![Ref Book](./Imgs/Ref Book.jpg)
+![Ref_Book](./Imgs/Ref_Book.jpg)
 
 - [AE](https://mai-hong.tistory.com/2)(Auto-Encoding)
     - 2019.11.23
