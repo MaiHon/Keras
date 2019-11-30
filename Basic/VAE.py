@@ -140,10 +140,6 @@ class VAE(object):
             epochs = epochs
         )
 
-config = tf.compat.v1.ConfigProto(log_device_placement=True, allow_soft_placement=True)
-config.gpu_options.allow_growth= True
-tf.compat.v1.enable_eager_execution(config=config)
-
 print("Training with GPU? ==> [", tf.test.is_built_with_gpu_support(), "]")
 VAE = VAE(
         (28, 28, 1),
