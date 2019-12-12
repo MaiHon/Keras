@@ -17,3 +17,11 @@
     - [Code-1](./Basic/VAE_CelebA.py) Training
     - [Code-2](./Basic/VAE_CelebA_Analysis.py) Analysis
     - VAE_analysis with CelebA dataset
+
+- [GAN](https://mai-hong.tistory.com/manage/newpost/?type=post&returnURL=%2Fmanage%2Fposts)(Generative Adversarial Networks)
+    - 2019.12.13
+    - [Code](./Basic/GAN.py)
+    - [참조한링크](https://medium.com/@jonathan_hui/gan-whats-generative-adversarial-networks-and-its-application-f39ed278ef09)
+    - [참조논문]
+        - [Generative Adversarial Network](https://arxiv.org/abs/1406.2661)
+        - [NIPS 2016 Tutorial: Generative Adversarial Networks](https://arxiv.org/abs/1701.00160)
